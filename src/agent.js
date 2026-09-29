@@ -397,7 +397,7 @@ export async function runAutomationAgent(input) {
     // Allow multiple rounds of tool calls
     // --------------------------------------------------------
 
-    const MAX_TOOL_ROUNDS = 5;
+    const MAX_TOOL_ROUNDS = 12;
 
 
     for (
